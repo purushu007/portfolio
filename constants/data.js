@@ -30,7 +30,7 @@ const myData = {
     ],
     about: {
       title:
-        "I'm a software developer 👨🏽‍💻 that loves building products and web applications that impact millions of lives 🌏.",
+        "I'm a software developer 👨🏽‍💻 loves building products and web applications that impact millions of lives 🌏.",
       description: [
         `A Front-End Developer with 5 years of experience in blending the art of design 🎨 with skill of programming 🧑‍🎨 to deliver an engaging user experience.`,
         `Excited about Product 📦, Design 🎨 and aesthetics ✨.`,
