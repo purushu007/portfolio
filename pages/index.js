@@ -5,7 +5,7 @@ import myData from "../constants/data";
 export default function Home() {
   return (
     <ContainerBlock>
-      <div className="profile flex items-center justify-center">
+      <div className="profile flex items-center justify-center sm:flex-row flex-col">
         <div className="profile-info w-1/2 pl-10">
           <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">{myData.about.title}</p>
           <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">{myData.about.description[0]}</p>
