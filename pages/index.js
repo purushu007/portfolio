@@ -5,13 +5,13 @@ import myData from "../constants/data";
 export default function Home() {
   return (
     <ContainerBlock>
-      <div className="profile flex items-center justify-center">
-        <div className="profile-info w-1/2 pl-10">
+      <div className="profile flex items-center justify-center max-md:flex-col-reverse">
+        <div className="profile-info w-full md:w-1/2 px-10 md:pl-10">
           <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">{myData.about.title}</p>
           <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">{myData.about.description[0]}</p>
           <p className="text-xl text-gray-700 mb-4 dark:text-gray-300 ">{myData.about.description[1]}</p>
         </div>
-        <div className="profile-pic w-96 md:w-2/3 lg:w-5/12">
+        <div className="profile-pic w-96 md:w-2/3 lg:w-5/12 max-md:mb-10">
           <div className="relative">
             <Image className="relative z-10 m-auto w-64 md:w-2/3 lg:w-9/12 rounded-b-full" src={myData.profilePicUrl} width={500} height={500} alt="Purushothama Reddy M picture" />
             <svg
