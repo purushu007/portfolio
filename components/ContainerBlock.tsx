@@ -45,7 +45,7 @@ export default function ContainerBlock({children, ...customMeta}) {
                     <div>{children}</div>
                 </main>
                 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P58X7SNL"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}"></iframe></noscript>
                 <Footer />
             </div>
             <Analytics />
