@@ -42,9 +42,8 @@ npm run dev
 
 ```
 ├── app/                # App Router pages and layouts
-├── components/         # Reusable React components
 ├── constants/         # Constants and configuration
-├── public/           # Static assets
+├── public/           # Static assets and images
 └── styles/           # Global styles
 ```
 
